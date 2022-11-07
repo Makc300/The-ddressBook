@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Acherus Feral';
+    src: url('/dist/fonts/Acherus Feral.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+.confirm-section {
+    display: flex;
+    height: 16%;
+    border: solid 3px black;
+
+
+    &__btn {
+        height: 100%;
+        width: 100%;
+        font-size: 30px;
+        font-family: 'Acherus Feral';
+        background-color: floralwhite;
+        border: none;
+        transition: 0.1s all ease-in-out;
+
+        &:hover {
+            background-color: #e6e6e6;
+        }
+    }
+}

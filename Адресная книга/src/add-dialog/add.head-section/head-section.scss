@@ -1,0 +1,23 @@
+.head-section {
+    display: flex;
+    height: 15%;
+    border: solid 3px black;
+    justify-content: left;
+    align-items: center;
+
+
+    &__phone-img {
+        height: 60%;
+        margin-left: 35px;
+        margin-right: 10px;
+        color: black;
+    }
+
+    &__contact-text {
+        font-size: 25px;
+        color: #000000;
+        margin-left: 30px;
+        margin-right: 40px;
+        color: black;
+    }
+}
